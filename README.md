@@ -7,4 +7,5 @@
    - npm install cors
    - npm install express
    - npm install mysql2
-6) В терминале node server.js
+6) В терминале node server.js для запуска сервера
+7) Запустить клиенский файл index.html
