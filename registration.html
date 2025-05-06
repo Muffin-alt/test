@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="news.html">Новости</a>
+                <a href="registration.html">Регистрация</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h1>Форма регистрации</h1>
+                <form id="regForm">
+                    <div class="form-group">
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Пол:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Мужской</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Женский</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interests">Интересы:</label>
+                        <input type="checkbox" id="sport" name="interests" value="sport">
+                        <label for="sport">Спорт</label>
+                        <input type="checkbox" id="music" name="interests" value="music">
+                        <label for="music">Музыка</label>
+                        <input type="checkbox" id="books" name="interests" value="books">
+                        <label for="books">Книги</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">Страна:</label>
+                        <select id="country" name="country">
+                            <option value="ru">Россия</option>
+                            <option value="by">Беларусь</option>
+                            <option value="kz">Казахстан</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="about">О себе:</label>
+                        <textarea id="about" name="about" rows="4"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit">Зарегистрироваться</button>
+                        <button type="reset">Отменить</button>
+                    </div>
+                </form>
+            </div>
+            
+            <aside class="sidebar">
+                <img src="Реклама5.jpg" alt="Реклама 1"> <p>Будущие студенты!
+                    Пройдите важный опрос!
+                    Результаты помогут повысить качество образования в России.
+                    Займет несколько минут.</p>
+                <img src="Реклама6.jpg" alt="Реклама 2"> <p>Хочешь стать частью крутого проекта? Тогда прими участие в акции «Победа в чемодане».</p>
+            </aside>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Все права защищены</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
